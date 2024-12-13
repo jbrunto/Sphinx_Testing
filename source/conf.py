@@ -13,8 +13,9 @@ release = '0.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
+import os, sys
+import pydata_sphinx_theme
+extensions = ['pydata_sphinx_theme']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -23,6 +24,7 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-import pydata_sphinx_theme
+
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+#html_baseurl = 
