@@ -16,8 +16,8 @@ release = '0.1'
 import os, sys
 sys.path.insert(0, os.path.abspath('..'))
 
-import pydata_sphinx_theme
-extensions = ['pydata_sphinx_theme']
+#import pydata_sphinx_theme
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -27,6 +27,6 @@ exclude_patterns = []
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'pydata_sphinx_theme'
+html_theme = 'alabaster'
 html_static_path = ['_static']
 #html_baseurl = 
