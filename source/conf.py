@@ -55,3 +55,15 @@ html_theme = 'nature'
 html_static_path = ['_static']
 
 html_baseurl = 'https://jbrunto.github.io/Sphinx_Testing/'
+
+
+html_theme_options = {
+         }
+
+html_context = {
+        "github_user": "jbrunto",
+        "github_repo": "Sphinx_Testing",
+        "github_version": "main",
+        "doc_path": "docs"
+        }
+
