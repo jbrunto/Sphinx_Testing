@@ -52,18 +52,18 @@ html_theme = 'nature'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['docs/_static']
+html_static_path = ['_static']
 
-#html_baseurl = 'https://jbrunto.github.io/Sphinx_Testing/docs/'
+html_baseurl = 'https://github.com/jbrunto/Sphinx_Testing/blob/main/docs/'
 
 
 html_theme_options = {
          }
 
-html_context = {
-        "github_user": "jbrunto",
-        "github_repo": "Sphinx_Testing",
-        "github_version": "main",
-        "doc_path": "docs"
-        }
+#html_context = {
+#        "github_user": "jbrunto",
+#        "github_repo": "Sphinx_Testing",
+#        "github_version": "main",
+#        "doc_path": "docs"
+#        }
 
